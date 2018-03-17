@@ -152,5 +152,81 @@ export default [
       teams.east1
     ],
     winner: teams.south1
+  },
+  { // 1
+    name: 'Erin2',
+    round1: [
+      teams.south16,
+      teams.south8,
+      teams.south5,
+      teams.south4,
+      teams.south11,
+      teams.south3,
+      teams.south10,
+      teams.south2,
+      teams.west1,
+      teams.west9,
+      teams.west5,
+      teams.west4,
+      teams.west6,
+      teams.west3,
+      teams.west7,
+      teams.west2,
+      teams.east1,
+      teams.east8,
+      teams.east5,
+      teams.east4,
+      teams.east6,
+      teams.east3,
+      teams.east10,
+      teams.east2,
+      teams.midwest1,
+      teams.midwest8,
+      teams.midwest5,
+      teams.midwest4,
+      teams.midwest6,
+      teams.midwest3,
+      teams.midwest10,
+      teams.midwest2
+    ],
+    round2: [
+      teams.south1,
+      teams.south5,
+      teams.south3,
+      teams.south2,
+      teams.west1,
+      teams.west4,
+      teams.west6,
+      teams.west2,
+      teams.east1,
+      teams.east5,
+      teams.east3,
+      teams.east2,
+      teams.midwest1,
+      teams.midwest5,
+      teams.midwest3,
+      teams.midwest2
+    ],
+    elite8: [
+      teams.south1,
+      teams.south2,
+      teams.west4,
+      teams.west2,
+      teams.east1,
+      teams.east2,
+      teams.midwest1,
+      teams.midwest2
+    ],
+    final4: [
+      teams.south1,
+      teams.west4,
+      teams.east1,
+      teams.midwest2
+    ],
+    championship: [
+      teams.south1,
+      teams.east1
+    ],
+    winner: teams.south1
   }
 ];
