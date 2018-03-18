@@ -15,7 +15,7 @@ module.exports = {
     publicPath: "/dist/"
   },
   plugins: [
-    new CopyWebpackPlugin([{ from: 'assets/favicon.png' }]),
+    new CopyWebpackPlugin([{ from: 'src/assets/favicon.png' }]),
     new webpack.DefinePlugin({
       "process.env": {
         "NODE_ENV": JSON.stringify("production")
